@@ -7,6 +7,7 @@ import routerProvider, {
   DocumentTitleHandler,
 } from "@refinedev/react-router";
 import { BookOpen, Home } from "lucide-react";
+import { mockDataProvider } from "./providers/mock-data";
 
 import { Dashboard } from "./pages/dashboard";
 import { dataProvider } from "./providers/data";
@@ -27,7 +28,7 @@ function App() {
         <ThemeProvider>
           <DevtoolsProvider>
             <Refine
-              dataProvider={dataProvider}
+              dataProvider={mockDataProvider}
               notificationProvider={notificationProvider}
               routerProvider={routerProvider}
               options={{
