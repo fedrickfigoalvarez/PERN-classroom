@@ -10,7 +10,6 @@ import { BookOpen, Home } from "lucide-react";
 import { mockDataProvider } from "./providers/mock-data";
 
 import { Dashboard } from "./pages/dashboard";
-import { dataProvider } from "./providers/data";
 import { Layout } from "./components/refine-ui/layout/layout";
 import { useNotificationProvider } from "./components/refine-ui/notification/use-notification-provider";
 import { Toaster } from "./components/refine-ui/notification/toaster";
